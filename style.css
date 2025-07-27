@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #000;
+}
+html, body {
+      width: 600px;
+      height: 500px;
+      overflow: auto;
+    }
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: aliceblue;
+}
+
+#bookmarks-container {
+    margin-left: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.tile {
+    width: 200px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.tile:hover {
+  transform: translateY(-5px);
+}
+
+.tile a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tile img {
+  width: 32px;
+  height: 32px;
+}
