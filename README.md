@@ -13,7 +13,7 @@ A stunning, galaxy-themed Chrome extension that gives your bookmarks a stylish, 
 
 ## 🖼️ Preview
 
-![Screenshot](screenshot.png)
+![Screenshot](Screenshot.png)
 
 ## 🛠️ Installation (Development Mode)
 
